@@ -68,6 +68,7 @@ select{
 img{
     width: 5rem;
     border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 table{
