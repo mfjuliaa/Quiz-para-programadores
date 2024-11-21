@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5e6db; /*para o fundo*/
+    color: #45171D;/*para o texto*/
+    font-family: "Comfortaa";
+    font-weight: 400;
+   
+}
+
+header{
+    padding: 2rem;/*Unidades de medidas relativas = se adequa ao que ja está predefinido no pc/mobile da pessoa*/
+    background-color:#FCB2BF;
+    text-align: center;
+}
+
+main{/*flex box*/
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2{
+    /*color:;  era para estar aqui, porem tirei*/
+   
+    font-size: 1.2rem;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    accent-color: #FCB2BF;
+}
+
+input[type="text"], input[type="password"],input[type="date"] ,input[type="email"]{
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #FCB2BF;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+input::placeholder{
+   color: #45171D;
+}
+
+select{
+    cursor: pointer;
+    background-color:  #fcb2bf;
+    color: #45171D;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+img{
+    width: 5rem;
+    border-radius: 5px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #FCB2BF;
+    color: #45171D;
+    padding: 1rem;
+}
+
+td{
+    color: #45171D;
+    padding: 1rem;
+    text-align: center;
+}
+
+tfoot td{/* só usa os descendentes do tfoot*/
+    background-color: #FCB2BF;
+    color: #45171D;
+}
+
+details{
+    background-color: #FCB2BF;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+sumary{
+    color: #FCB2BF;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol{
+    margin-left: 1.5rem;
+}
+
+ol li{
+    padding: 0.2rem;
+}
+
+fieldset{
+    border: 2px solid #FCB2BF;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend{
+    color: #45171D;
+    padding: 0 0.5rem;/* vertical primeiro valor, horizontal o segundo*/
+}
+
+textarea{
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #FCB2BF;
+    background-color: transparent;
+}
+
+button{
+    background-color: #FCB2BF;
+    border: none;
+    padding: 0.8rem;
+    color: #45171D;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #fcb2bf;
+    padding: 2rem;
+    text-align: center;
+}
+
+.paragrafo-footer{/* usasse "." para indicar que é uma classe dentro do html ex= .paragrafo-footer*/
+    color:#45171D ;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: #f4517f;
+}
