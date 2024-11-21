@@ -130,6 +130,10 @@ textarea{
     background-color: transparent;
 }
 
+textarea::placeholder{
+    color: #45171D;
+ }
+
 button{
     background-color: #FCB2BF;
     border: none;
@@ -152,5 +156,5 @@ footer{
 
 footer a{
     text-decoration: none;
-    color: #f4517f;
+    color: #f5e6db;
 }
